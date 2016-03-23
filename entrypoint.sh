@@ -1,8 +1,9 @@
 #!/bin/sh
 
 # Expects a userid number in the environment variable USERID
+# Expects the environment variable WEBSITE to hold the location of the website directory
 
-WEBSITE=/var/local/website
+#WEBSITE=/var/local/website
 OWNER="${USERID:-600}"
 INITIALADMIN="${INITIALADMIN:-admin:firsttime}"
 
