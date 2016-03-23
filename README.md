@@ -27,6 +27,9 @@ In the etc/zope.conf set the port of the embedded HTTP service to 8080.
   # force-connection-close on
 </http-server>
 ```
+In the scripts under bin, make sure that the Python interpreter is /usr/local/python/bin/python
+and ZOPE_HOME is /usr/local/zope.
+
 
 Sources
 -------
